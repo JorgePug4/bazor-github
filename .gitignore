@@ -52,3 +52,36 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Build
+bin/
+obj/
+
+# User-specific
+*.user
+*.suo
+*.userprefs
+*.vscode/
+*.idea/
+
+# Logs
+*.log
+
+# Publish
+wwwroot/dist/
+wwwroot/build/
+
+# ASP.NET / Blazor temp
+*.dbmdl
+*.jfm
+GeneratedFiles/
+.vs/
+
+# Secrets
+appsettings.*.json
+!appsettings.json
+
+# Node (si usas Tailwind o tooling)
+node_modules/
+npm-debug.log*
+package-lock.json
